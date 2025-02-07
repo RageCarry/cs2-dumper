@@ -2561,24 +2561,24 @@
         },
         "metadata": [
           {
-            "name": "m_worldName",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "string_t"
+            "type_name": ""
           },
           {
-            "name": "m_layerName",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "string_t"
+            "type_name": ""
           },
           {
-            "name": "m_bWorldLayerVisible",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bEntitiesSpawned",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -2654,329 +2654,329 @@
         },
         "metadata": [
           {
-            "name": "m_Color",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_SecondaryColor",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_flBrightness",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flBrightnessScale",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flBrightnessMult",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flRange",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFalloff",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flAttenuation0",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flAttenuation1",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flAttenuation2",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flTheta",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flPhi",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_hLightCookie",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_nCascades",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nCastShadows",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowWidth",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowHeight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_bRenderDiffuse",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_nRenderSpecular",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_bRenderTransmissive",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_flOrthoLightWidth",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flOrthoLightHeight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_nStyle",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_Pattern",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CUtlString"
+            "type_name": ""
           },
           {
-            "name": "m_nCascadeRenderStaticObjects",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowCascadeCrossFade",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowCascadeDistanceFade",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowCascadeDistance0",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowCascadeDistance1",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowCascadeDistance2",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowCascadeDistance3",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowCascadeResolution0",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowCascadeResolution1",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowCascadeResolution2",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowCascadeResolution3",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_bUsesBakedShadowing",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_nShadowPriority",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nBakedShadowIndex",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_bRenderToCubemaps",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_nDirectLight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_nIndirectLight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_flFadeMinDist",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFadeMaxDist",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowFadeMinDist",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flShadowFadeMaxDist",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bEnabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bFlicker",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bPrecomputedFieldsValid",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_vPrecomputedBoundsMins",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_vPrecomputedBoundsMaxs",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_vPrecomputedOBBOrigin",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_vPrecomputedOBBAngles",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "QAngle"
+            "type_name": ""
           },
           {
-            "name": "m_vPrecomputedOBBExtent",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_flPrecomputedMaxRange",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_nFogLightingMode",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_flFogContributionStength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flNearClipPlane",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_SkyColor",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_flSkyIntensity",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_SkyAmbientBounce",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_bUseSecondaryColor",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bMixedShadows",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_flLightStyleStartTime",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "GameTime_t"
+            "type_name": ""
           },
           {
-            "name": "m_flCapsuleLength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flMinRoughness",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           }
         ],
         "parent": "CEntityComponent"
@@ -5697,29 +5697,29 @@
             "type": "Unknown"
           },
           {
-            "name": "m_nViewModelIndex",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "uint32"
+            "type_name": ""
           },
           {
-            "name": "m_nAnimationParity",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "uint32"
+            "type_name": ""
           },
           {
-            "name": "m_flAnimationStartTime",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float32"
+            "type_name": ""
           },
           {
-            "name": "m_hWeapon",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CHandle<CBasePlayerWeapon>"
+            "type_name": ""
           },
           {
-            "name": "m_hControlPanel",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
+            "type_name": ""
           }
         ],
         "parent": "CBaseAnimGraph"
@@ -6003,9 +6003,9 @@
         },
         "metadata": [
           {
-            "name": "m_bShouldIgnoreOffsetAndAccuracy",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_PredictedViewModel"
@@ -8977,72 +8977,72 @@
         },
         "metadata": [
           {
-            "name": "m_Entity_hLightProbeTexture",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_hLightProbeDirectLightIndicesTexture",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_hLightProbeDirectLightScalarsTexture",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_hLightProbeDirectLightShadowsTexture",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_vBoxMins",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_vBoxMaxs",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_bMoveable",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_nHandshake",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_nPriority",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_bStartDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_nLightProbeSizeX",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_nLightProbeSizeY",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_nLightProbeSizeZ",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_Entity_nLightProbeAtlasX",
+            "name": "",
             "type": "NetworkVarNames",
             "type_name": "int"
           },
@@ -9164,64 +9164,64 @@
         },
         "metadata": [
           {
-            "name": "m_hSkyMaterial",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HMaterialStrong"
+            "type_name": ""
           },
           {
-            "name": "m_hSkyMaterialLightingOnly",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HMaterialStrong"
+            "type_name": ""
           },
           {
-            "name": "m_bStartDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_vTintColor",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_vTintColorLightingOnly",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_flBrightnessScale",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_nFogType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_flFogMinStart",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogMinEnd",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogMaxStart",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogMaxEnd",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bEnabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseModelEntity"
@@ -9382,52 +9382,52 @@
           {
             "name": "m_flDefaultDrawDistance",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bStartDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bEnableIndirect",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bIndirectUseLPVs",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bIsMaster",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_hFogIndirectTexture",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_nForceRefreshCount",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_fNoiseSpeed",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_fNoiseStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_vNoiseScale",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -9453,84 +9453,84 @@
         },
         "metadata": [
           {
-            "name": "m_bActive",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_vBoxMins",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_vBoxMaxs",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_bStartDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_flStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_nFalloffShape",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_flFalloffExponent",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flHeightFogDepth",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_fHeightFogEdgeWidth",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_fIndirectLightStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_fSunLightStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_fNoiseStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bOverrideIndirectLightStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bOverrideSunLightStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bOverrideNoiseStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bAllowLPVIndirect",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -9844,9 +9844,9 @@
         },
         "metadata": [
           {
-            "name": "m_fog",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "fogparams_t"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -10165,79 +10165,79 @@
         },
         "metadata": [
           {
-            "name": "m_hGradientFogTexture",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_flFogStartDistance",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogEndDistance",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bHeightFogEnabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_flFogStartHeight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogEndHeight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFarZ",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogMaxOpacity",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogFalloffExponent",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFogVerticalExponent",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_fogColor",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Color"
+            "type_name": ""
           },
           {
-            "name": "m_flFogStrength",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flFadeTime",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bStartDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bIsEnabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -10489,19 +10489,19 @@
         },
         "metadata": [
           {
-            "name": "m_nMode",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "int"
+            "type_name": ""
           },
           {
-            "name": "m_vBoxSize",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_bEnabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -10569,9 +10569,9 @@
         },
         "metadata": [
           {
-            "name": "m_CLightComponent",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CLightComponent::Storage_t"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseModelEntity"
@@ -11964,89 +11964,89 @@
         },
         "metadata": [
           {
-            "name": "m_bDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_bUpdateOnClient",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_nInputType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "ValueRemapperInputType_t"
+            "type_name": ""
           },
           {
-            "name": "m_hRemapLineStart",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
+            "type_name": ""
           },
           {
-            "name": "m_hRemapLineEnd",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
+            "type_name": ""
           },
           {
-            "name": "m_flMaximumChangePerSecond",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flDisengageDistance",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flEngageDistance",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_bRequiresUseKey",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_nOutputType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "ValueRemapperOutputType_t"
+            "type_name": ""
           },
           {
-            "name": "m_hOutputEntities",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CHandle<C_BaseEntity>"
+            "type_name": ""
           },
           {
-            "name": "m_nHapticsType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "ValueRemapperHapticsType_t"
+            "type_name": ""
           },
           {
-            "name": "m_nMomentumType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "ValueRemapperMomentumType_t"
+            "type_name": ""
           },
           {
-            "name": "m_flMomentumModifier",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flSnapValue",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_nRatchetType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "ValueRemapperRatchetType_t"
+            "type_name": ""
           },
           {
-            "name": "m_flInputOffset",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -12763,19 +12763,19 @@
         },
         "metadata": [
           {
-            "name": "m_bDisabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_iszSoundAreaType",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "string_t"
+            "type_name": ""
           },
           {
-            "name": "m_vPos",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -12787,14 +12787,14 @@
         },
         "metadata": [
           {
-            "name": "m_vMin",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_vMax",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           }
         ],
         "parent": "C_SoundAreaEntityBase"
@@ -12805,9 +12805,9 @@
         },
         "metadata": [
           {
-            "name": "m_flRadius",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           }
         ],
         "parent": "C_SoundAreaEntityBase"
@@ -13430,44 +13430,44 @@
         },
         "metadata": [
           {
-            "name": "m_flAutoExposureMin",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flAutoExposureMax",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flTonemapPercentTarget",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flTonemapPercentBrightPixels",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flTonemapMinAvgLum",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flExposureAdaptationSpeedUp",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flExposureAdaptationSpeedDown",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flTonemapEVSmoothingRange",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -14537,94 +14537,14 @@
       }
     },
     "enums": {
-      "CompMatPropertyMutatorConditionType_t": {
+      "C_BaseCombatCharacter__WaterWakeMode_t": {
         "alignment": 4,
         "members": {
-          "COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_EXISTS": 0,
-          "COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EQUALS": 2,
-          "COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EXISTS": 1
-        },
-        "type": "uint32"
-      },
-      "CompMatPropertyMutatorType_t": {
-        "alignment": 4,
-        "members": {
-          "COMP_MAT_PROPERTY_MUTATOR_CONDITIONAL_MUTATORS": 6,
-          "COMP_MAT_PROPERTY_MUTATOR_COPY_KEYS_WITH_SUFFIX": 2,
-          "COMP_MAT_PROPERTY_MUTATOR_COPY_MATCHING_KEYS": 1,
-          "COMP_MAT_PROPERTY_MUTATOR_COPY_PROPERTY": 3,
-          "COMP_MAT_PROPERTY_MUTATOR_DRAW_TEXT": 8,
-          "COMP_MAT_PROPERTY_MUTATOR_GENERATE_TEXTURE": 5,
-          "COMP_MAT_PROPERTY_MUTATOR_INIT": 0,
-          "COMP_MAT_PROPERTY_MUTATOR_POP_INPUT_QUEUE": 7,
-          "COMP_MAT_PROPERTY_MUTATOR_RANDOM_ROLL_INPUT_VARIABLES": 9,
-          "COMP_MAT_PROPERTY_MUTATOR_SET_VALUE": 4
-        },
-        "type": "uint32"
-      },
-      "CompositeMaterialInputContainerSourceType_t": {
-        "alignment": 4,
-        "members": {
-          "CONTAINER_SOURCE_TYPE_LOOSE_VARIABLES": 3,
-          "CONTAINER_SOURCE_TYPE_MATERIAL_FROM_TARGET_ATTR": 1,
-          "CONTAINER_SOURCE_TYPE_SPECIFIC_MATERIAL": 2,
-          "CONTAINER_SOURCE_TYPE_TARGET_INSTANCE_MATERIAL": 5,
-          "CONTAINER_SOURCE_TYPE_TARGET_MATERIAL": 0,
-          "CONTAINER_SOURCE_TYPE_VARIABLE_FROM_TARGET_ATTR": 4
-        },
-        "type": "uint32"
-      },
-      "CompositeMaterialInputLooseVariableType_t": {
-        "alignment": 4,
-        "members": {
-          "LOOSE_VARIABLE_TYPE_BOOLEAN": 0,
-          "LOOSE_VARIABLE_TYPE_COLOR4": 9,
-          "LOOSE_VARIABLE_TYPE_FLOAT1": 5,
-          "LOOSE_VARIABLE_TYPE_FLOAT2": 6,
-          "LOOSE_VARIABLE_TYPE_FLOAT3": 7,
-          "LOOSE_VARIABLE_TYPE_FLOAT4": 8,
-          "LOOSE_VARIABLE_TYPE_INTEGER1": 1,
-          "LOOSE_VARIABLE_TYPE_INTEGER2": 2,
-          "LOOSE_VARIABLE_TYPE_INTEGER3": 3,
-          "LOOSE_VARIABLE_TYPE_INTEGER4": 4,
-          "LOOSE_VARIABLE_TYPE_PANORAMA_RENDER": 14,
-          "LOOSE_VARIABLE_TYPE_RESOURCE_MATERIAL": 12,
-          "LOOSE_VARIABLE_TYPE_RESOURCE_TEXTURE": 13,
-          "LOOSE_VARIABLE_TYPE_STRING": 10,
-          "LOOSE_VARIABLE_TYPE_SYSTEMVAR": 11
-        },
-        "type": "uint32"
-      },
-      "CompositeMaterialInputTextureType_t": {
-        "alignment": 4,
-        "members": {
-          "INPUT_TEXTURE_TYPE_AO": 6,
-          "INPUT_TEXTURE_TYPE_COLOR": 2,
-          "INPUT_TEXTURE_TYPE_DEFAULT": 0,
-          "INPUT_TEXTURE_TYPE_MASKS": 3,
-          "INPUT_TEXTURE_TYPE_NORMALMAP": 1,
-          "INPUT_TEXTURE_TYPE_PEARLESCENCE_MASK": 5,
-          "INPUT_TEXTURE_TYPE_ROUGHNESS": 4
-        },
-        "type": "uint32"
-      },
-      "CompositeMaterialMatchFilterType_t": {
-        "alignment": 4,
-        "members": {
-          "MATCH_FILTER_MATERIAL_ATTRIBUTE_EQUALS": 3,
-          "MATCH_FILTER_MATERIAL_ATTRIBUTE_EXISTS": 0,
-          "MATCH_FILTER_MATERIAL_NAME_SUBSTR": 2,
-          "MATCH_FILTER_MATERIAL_PROPERTY_EQUALS": 5,
-          "MATCH_FILTER_MATERIAL_PROPERTY_EXISTS": 4,
-          "MATCH_FILTER_MATERIAL_SHADER": 1
-        },
-        "type": "uint32"
-      },
-      "CompositeMaterialVarSystemVar_t": {
-        "alignment": 4,
-        "members": {
-          "COMPMATSYSVAR_COMPOSITETIME": 0,
-          "COMPMATSYSVAR_EMPTY_RESOURCE_SPACER": 1
+          "WATER_WAKE_IDLE": 1,
+          "WATER_WAKE_NONE": 0,
+          "WATER_WAKE_RUNNING": 3,
+          "WATER_WAKE_WALKING": 2,
+          "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
       }

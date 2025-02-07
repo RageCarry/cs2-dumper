@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-07 01:09:20.514738783 UTC
 
 #pragma once
 
@@ -8,40 +8,9 @@
 namespace cs2_dumper {
     namespace schemas {
         // Module: engine2.dll
-        // Class count: 48
-        // Enum count: 4
+        // Class count: 47
+        // Enum count: 0
         namespace engine2_dll {
-            // Alignment: 4
-            // Member count: 3
-            enum class EntityDormancyType_t : uint32_t {
-                ENTITY_NOT_DORMANT = 0x0,
-                ENTITY_DORMANT = 0x1,
-                ENTITY_SUSPENDED = 0x2
-            };
-            // Alignment: 4
-            // Member count: 4
-            enum class EntityIOTargetType_t : uint32_t {
-                ENTITY_IO_TARGET_INVALID = 0xFFFFFFFFFFFFFFFF,
-                ENTITY_IO_TARGET_ENTITYNAME = 0x2,
-                ENTITY_IO_TARGET_EHANDLE = 0x6,
-                ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
-            };
-            // Alignment: 4
-            // Member count: 3
-            enum class SpawnDebugOverrideState_t : uint32_t {
-                SPAWN_DEBUG_OVERRIDE_NONE = 0x0,
-                SPAWN_DEBUG_OVERRIDE_FORCE_ENABLED = 0x1,
-                SPAWN_DEBUG_OVERRIDE_FORCE_DISABLED = 0x2
-            };
-            // Alignment: 4
-            // Member count: 5
-            enum class SpawnDebugRestrictionOverrideState_t : uint32_t {
-                SPAWN_DEBUG_RESTRICT_NONE = 0x0,
-                SPAWN_DEBUG_RESTRICT_IGNORE_MANAGER_DISTANCE_REQS = 0x1,
-                SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_DISTANCE_LOS_REQS = 0x2,
-                SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_COOLDOWN_LIMITS = 0x4,
-                SPAWN_DEBUG_RESTRICT_IGNORE_TARGET_COOLDOWN_LIMITS = 0x8
-            };
             // Parent: EventSimulate_t
             // Field count: 0
             namespace EventClientPostSimulate_t {
@@ -49,7 +18,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 3
             namespace EventSimpleLoopFrameUpdate_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRealTime = 0x28; // float32
                 constexpr std::ptrdiff_t m_flFrameTime = 0x2C; // float32
             }
@@ -74,7 +43,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 5
             namespace EventClientOutput_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRenderTime = 0x28; // float32
                 constexpr std::ptrdiff_t m_flRealTime = 0x2C; // float32
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnbounded = 0x30; // float32
@@ -90,7 +59,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flags = 0x8; // uint32
                 constexpr std::ptrdiff_t m_pInfo = 0x10; // EntComponentInfo_t*
                 constexpr std::ptrdiff_t m_nPriority = 0x18; // int32
-                constexpr std::ptrdiff_t m_pNext = 0x20; // CEntityComponentHelper*
+                constexpr std::ptrdiff_t m_pNext = 0x20; // 
             }
             // Parent: None
             // Field count: 1
@@ -112,7 +81,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 1
             namespace CNetworkVarChainer {
-                constexpr std::ptrdiff_t m_PathIndex = 0x20; // ChangeAccessorFieldPathIndex_t
+                constexpr std::ptrdiff_t m_PathIndex = 0x20; // 
             }
             // Parent: EventSimulate_t
             // Field count: 0
@@ -121,7 +90,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 5
             namespace EventClientPostOutput_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRenderTime = 0x28; // float64
                 constexpr std::ptrdiff_t m_flRenderFrameTime = 0x30; // float32
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnbounded = 0x34; // float32
@@ -135,7 +104,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 2
             namespace EventClientPollInput_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRealTime = 0x28; // float32
             }
             // Parent: None
@@ -146,7 +115,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 3
             namespace EventClientProcessGameInput_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRealTime = 0x28; // float32
                 constexpr std::ptrdiff_t m_flFrameTime = 0x2C; // float32
             }
@@ -171,7 +140,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 1
             namespace EventProfileStorageAvailable_t {
-                constexpr std::ptrdiff_t m_nSplitScreenSlot = 0x0; // CSplitScreenSlot
+                constexpr std::ptrdiff_t m_nSplitScreenSlot = 0x0; // 
             }
             // Parent: None
             // Field count: 1
@@ -218,7 +187,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 6
             namespace EventClientPreOutput_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRenderTime = 0x28; // float64
                 constexpr std::ptrdiff_t m_flRenderFrameTime = 0x30; // float64
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnbounded = 0x38; // float64
@@ -228,7 +197,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 4
             namespace EventClientFrameSimulate_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRealTime = 0x28; // float32
                 constexpr std::ptrdiff_t m_flFrameTime = 0x2C; // float32
                 constexpr std::ptrdiff_t m_bScheduleSendTickPacket = 0x30; // bool
@@ -240,7 +209,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 8
             namespace EventSetTime_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_nClientOutputFrames = 0x28; // int32
                 constexpr std::ptrdiff_t m_flRealTime = 0x30; // float64
                 constexpr std::ptrdiff_t m_flRenderTime = 0x38; // float64
@@ -256,7 +225,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 3
             namespace EventSimulate_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_bFirstTick = 0x28; // bool
                 constexpr std::ptrdiff_t m_bLastTick = 0x29; // bool
             }
@@ -281,15 +250,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pNetworkDataReferencedPtrPropDescription = 0x18; // char*
                 constexpr std::ptrdiff_t m_nRuntimeIndex = 0x20; // int32
                 constexpr std::ptrdiff_t m_nFlags = 0x24; // uint32
-                constexpr std::ptrdiff_t m_pBaseClassComponentHelper = 0x60; // CEntityComponentHelper*
-            }
-            // Parent: None
-            // Field count: 4
-            namespace EngineLoopState_t {
-                constexpr std::ptrdiff_t m_nPlatWindowWidth = 0x18; // int32
-                constexpr std::ptrdiff_t m_nPlatWindowHeight = 0x1C; // int32
-                constexpr std::ptrdiff_t m_nRenderWidth = 0x20; // int32
-                constexpr std::ptrdiff_t m_nRenderHeight = 0x24; // int32
+                constexpr std::ptrdiff_t m_pBaseClassComponentHelper = 0x60; // 
             }
             // Parent: None
             // Field count: 1
@@ -303,7 +264,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 4
             namespace EventClientProcessInput_t {
-                constexpr std::ptrdiff_t m_LoopState = 0x0; // EngineLoopState_t
+                constexpr std::ptrdiff_t m_LoopState = 0x0; // 
                 constexpr std::ptrdiff_t m_flRealTime = 0x28; // float32
                 constexpr std::ptrdiff_t m_flTickInterval = 0x2C; // float32
                 constexpr std::ptrdiff_t m_flTickStartTime = 0x30; // float64
