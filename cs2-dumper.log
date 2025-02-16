@@ -1,5 +1,44 @@
-02:16:56 [INFO] found 16 buttons
-02:16:56 [INFO] found 130 interfaces across 33 modules
-02:16:57 [INFO] found 33 offsets across 5 modules
-02:16:57 [INFO] found 2468 classes and 368 enums across 17 modules
-02:16:57 [INFO] analysis completed in 1.05s
+07:24:54 [INFO] scanning "/usr/local/lib/memflow" for libraries
+07:24:54 [INFO] adding plugin 'Connector/pcileech': "/usr/local/lib/memflow/libmemflow_pcileech.dev.so"
+07:24:54 [INFO] adding plugin 'Connector/kvm': "/usr/local/lib/memflow/libmemflow_kvm.dev.so"
+07:24:54 [INFO] adding plugin 'Connector/coredump': "/usr/local/lib/memflow/libmemflow_coredump.dev.so"
+07:24:54 [INFO] adding plugin 'OS/native': "/usr/local/lib/memflow/libmemflow_native.dev.so"
+07:24:54 [INFO] adding plugin 'Connector/kcore': "/usr/local/lib/memflow/libmemflow_kcore.dev.so"
+07:24:54 [INFO] adding plugin 'OS/win32': "/usr/local/lib/memflow/libmemflow_win32.dev.so"
+07:24:54 [INFO] adding plugin 'Connector/qemu': "/usr/local/lib/memflow/libmemflow_qemu.dev.so"
+07:24:54 [INFO] scanning "/home/test/.local/lib/memflow" for libraries
+07:24:54 [INFO] scanning "/home/test/cs2/cs2-dumper" for libraries
+07:24:54 [INFO] attempting to load `Connector` type plugin `kvm` from `/usr/local/lib/memflow/libmemflow_kvm.dev.so`
+07:24:54 [INFO] mmapped 9 slots
+07:24:54 [INFO] Inserting `CachedPhysicalMemory` middleware with size=0, validity_time=0, page_size=4096
+07:24:54 [INFO] attempting to load `OS` type plugin `win32` from `/usr/local/lib/memflow/libmemflow_win32.dev.so`
+07:24:54 [INFO] Building kernel of type memflow_win32::win32::kernel_builder::Win32KernelBuilder<memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::mem::virt_translate::cache::CachedVirtualTranslate<memflow::mem::virt_translate::direct_translate::DirectTranslate, memflow::types::cache::timed_validator::TimedCacheValidator>>
+07:24:54 [INFO] arch=X86(64, false) kernel_hint=fffff807c3a74c00 dtb=1be000
+07:24:54 [INFO] base=fffff807c3400000 size=21295104
+07:24:54 [INFO] kernel_guid=Some(Win32Guid { file_name: "ntkrnlmp.pdb", guid: "8B0464B49E520F4328DFFFE68FF5B4501" })
+07:24:54 [INFO] trying to find NtBuildNumber export
+07:24:54 [INFO] NtBuildNumber found at 0xe0a4ec
+07:24:54 [INFO] trying to find RtlGetVersion export
+07:24:54 [INFO] RtlGetVersion found at 0x9e5310
+07:24:54 [INFO] nt_build_number: 4026557940
+07:24:54 [INFO] kernel version: 10.0.26100
+07:24:54 [INFO] kernel_winver=Win32Version { nt_major_version: 10, nt_minor_version: 0, nt_build_number: 4026557940 }
+07:24:54 [INFO] PsInitialSystemProcess found at 0xfffff807c43c4aa8
+07:24:54 [INFO] eprocess_base=ffffbc81ac697040
+07:24:54 [INFO] start_block.dtb=1be000
+07:24:54 [INFO] reading pdb from local cache: /home/test/.cache/memflow/ntkrnlmp.pdb/8B0464B49E520F4328DFFFE68FF5B4501
+07:24:54 [INFO] updating connector mem_map=MemoryMapping: base=1000 size=2f000 real_base=1000
+MemoryMapping: base=50000 size=4e000 real_base=50000
+MemoryMapping: base=100000 size=700000 real_base=100000
+MemoryMapping: base=806000 size=1000 real_base=806000
+MemoryMapping: base=808000 size=3000 real_base=808000
+MemoryMapping: base=80c000 size=4000 real_base=80c000
+MemoryMapping: base=1a10000 size=7ce60000 real_base=1a10000
+MemoryMapping: base=7ebff000 size=301000 real_base=7ebff000
+MemoryMapping: base=100000000 size=180000000 real_base=100000000
+07:24:54 [INFO] updating sysproc_dtb=1be000
+07:24:54 [INFO] found 16 buttons
+07:24:54 [INFO] found 124 interfaces across 30 modules
+07:24:55 [INFO] found 33 offsets across 5 modules
+07:24:55 [INFO] found 566 classes and 0 enums across 2 modules
+07:24:55 [INFO] analysis completed in 523.68ms

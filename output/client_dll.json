@@ -1567,7 +1567,7 @@
             "type": "Unknown"
           }
         ],
-        "parent": "CBasePulseGraphInstance"
+        "parent": ""
       },
       "CCSPointScriptEntity": {
         "fields": {},
@@ -2561,24 +2561,24 @@
         },
         "metadata": [
           {
-            "name": "",
+            "name": "m_worldName",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "string_t"
           },
           {
-            "name": "",
+            "name": "m_layerName",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "string_t"
           },
           {
-            "name": "",
+            "name": "m_bWorldLayerVisible",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "bool"
           },
           {
-            "name": "",
+            "name": "m_bEntitiesSpawned",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "bool"
           }
         ],
         "parent": "C_BaseEntity"
@@ -4402,31 +4402,6 @@
         ],
         "parent": "C_BaseModelEntity"
       },
-      "C_BaseButton": {
-        "fields": {
-          "m_glowEntity": 3368,
-          "m_szDisplayText": 3376,
-          "m_usable": 3372
-        },
-        "metadata": [
-          {
-            "name": "m_glowEntity",
-            "type": "NetworkVarNames",
-            "type_name": "CHandle<C_BaseModelEntity>"
-          },
-          {
-            "name": "m_usable",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_szDisplayText",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          }
-        ],
-        "parent": "C_BaseToggle"
-      },
       "C_BaseCSGrenade": {
         "fields": {
           "m_bClientPredictDelete": 6944,
@@ -5697,29 +5672,29 @@
             "type": "Unknown"
           },
           {
-            "name": "",
+            "name": "m_nViewModelIndex",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "uint32"
           },
           {
-            "name": "",
+            "name": "m_nAnimationParity",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "uint32"
           },
           {
-            "name": "",
+            "name": "m_flAnimationStartTime",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "float32"
           },
           {
-            "name": "",
+            "name": "m_hWeapon",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "CHandle<CBasePlayerWeapon>"
           },
           {
-            "name": "",
+            "name": "m_hControlPanel",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "CHandle<CBaseEntity>"
           }
         ],
         "parent": "CBaseAnimGraph"
@@ -6003,9 +5978,9 @@
         },
         "metadata": [
           {
-            "name": "",
+            "name": "m_bShouldIgnoreOffsetAndAccuracy",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "bool"
           }
         ],
         "parent": "C_PredictedViewModel"
@@ -8072,14 +8047,14 @@
         },
         "metadata": [
           {
-            "name": "m_bEnabled",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_MaxWeight",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
             "name": "m_FadeDuration",
@@ -10259,14 +10234,14 @@
         },
         "metadata": [
           {
-            "name": "m_Handle",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CHandle<CBaseEntity>"
+            "type_name": ""
           },
           {
-            "name": "m_bSendHandle",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseEntity"
@@ -10569,9 +10544,9 @@
         },
         "metadata": [
           {
-            "name": "",
+            "name": "m_CLightComponent",
             "type": "NetworkVarNames",
-            "type_name": ""
+            "type_name": "CLightComponent::Storage_t"
           }
         ],
         "parent": "C_BaseModelEntity"
@@ -13370,44 +13345,44 @@
         },
         "metadata": [
           {
-            "name": "m_bLoop",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "bool"
+            "type_name": ""
           },
           {
-            "name": "m_flFPS",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_hPositionKeys",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_hRotationKeys",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "HRenderTextureStrong"
+            "type_name": ""
           },
           {
-            "name": "m_vAnimationBoundsMin",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_vAnimationBoundsMax",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "Vector"
+            "type_name": ""
           },
           {
-            "name": "m_flStartTime",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           },
           {
-            "name": "m_flStartFrame",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "float"
+            "type_name": ""
           }
         ],
         "parent": "C_BaseModelEntity"
@@ -14536,18 +14511,6 @@
         "parent": null
       }
     },
-    "enums": {
-      "C_BaseCombatCharacter__WaterWakeMode_t": {
-        "alignment": 4,
-        "members": {
-          "WATER_WAKE_IDLE": 1,
-          "WATER_WAKE_NONE": 0,
-          "WATER_WAKE_RUNNING": 3,
-          "WATER_WAKE_WALKING": 2,
-          "WATER_WAKE_WATER_OVERHEAD": 4
-        },
-        "type": "uint32"
-      }
-    }
+    "enums": {}
   }
 }
