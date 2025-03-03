@@ -1,14 +1,49 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 01:09:20.514738783 UTC
+// 2025-03-03 10:21:29.948917911 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: engine2.dll
-        // Class count: 47
-        // Enum count: 0
+        // Class count: 48
+        // Enum count: 4
         pub mod engine2_dll {
+            // Alignment: 4
+            // Member count: 3
+            #[repr(u32)]
+            pub enum EntityDormancyType_t {
+                ENTITY_NOT_DORMANT = 0x0,
+                ENTITY_DORMANT = 0x1,
+                ENTITY_SUSPENDED = 0x2
+            }
+            // Alignment: 4
+            // Member count: 4
+            #[repr(u32)]
+            pub enum EntityIOTargetType_t {
+                ENTITY_IO_TARGET_INVALID = u32::MAX,
+                ENTITY_IO_TARGET_ENTITYNAME = 0x2,
+                ENTITY_IO_TARGET_EHANDLE = 0x6,
+                ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
+            }
+            // Alignment: 4
+            // Member count: 3
+            #[repr(u32)]
+            pub enum SpawnDebugOverrideState_t {
+                SPAWN_DEBUG_OVERRIDE_NONE = 0x0,
+                SPAWN_DEBUG_OVERRIDE_FORCE_ENABLED = 0x1,
+                SPAWN_DEBUG_OVERRIDE_FORCE_DISABLED = 0x2
+            }
+            // Alignment: 4
+            // Member count: 5
+            #[repr(u32)]
+            pub enum SpawnDebugRestrictionOverrideState_t {
+                SPAWN_DEBUG_RESTRICT_NONE = 0x0,
+                SPAWN_DEBUG_RESTRICT_IGNORE_MANAGER_DISTANCE_REQS = 0x1,
+                SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_DISTANCE_LOS_REQS = 0x2,
+                SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_COOLDOWN_LIMITS = 0x4,
+                SPAWN_DEBUG_RESTRICT_IGNORE_TARGET_COOLDOWN_LIMITS = 0x8
+            }
             // Parent: EventSimulate_t
             // Field count: 0
             pub mod EventClientPostSimulate_t {
@@ -16,7 +51,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 3
             pub mod EventSimpleLoopFrameUpdate_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRealTime: usize = 0x28; // float32
                 pub const m_flFrameTime: usize = 0x2C; // float32
             }
@@ -41,7 +76,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 5
             pub mod EventClientOutput_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRenderTime: usize = 0x28; // float32
                 pub const m_flRealTime: usize = 0x2C; // float32
                 pub const m_flRenderFrameTimeUnbounded: usize = 0x30; // float32
@@ -57,7 +92,7 @@ pub mod cs2_dumper {
                 pub const m_flags: usize = 0x8; // uint32
                 pub const m_pInfo: usize = 0x10; // EntComponentInfo_t*
                 pub const m_nPriority: usize = 0x18; // int32
-                pub const m_pNext: usize = 0x20; // 
+                pub const m_pNext: usize = 0x20; // CEntityComponentHelper*
             }
             // Parent: None
             // Field count: 1
@@ -79,7 +114,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 1
             pub mod CNetworkVarChainer {
-                pub const m_PathIndex: usize = 0x20; // 
+                pub const m_PathIndex: usize = 0x20; // ChangeAccessorFieldPathIndex_t
             }
             // Parent: EventSimulate_t
             // Field count: 0
@@ -88,7 +123,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 5
             pub mod EventClientPostOutput_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRenderTime: usize = 0x28; // float64
                 pub const m_flRenderFrameTime: usize = 0x30; // float32
                 pub const m_flRenderFrameTimeUnbounded: usize = 0x34; // float32
@@ -102,7 +137,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 2
             pub mod EventClientPollInput_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRealTime: usize = 0x28; // float32
             }
             // Parent: None
@@ -113,7 +148,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 3
             pub mod EventClientProcessGameInput_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRealTime: usize = 0x28; // float32
                 pub const m_flFrameTime: usize = 0x2C; // float32
             }
@@ -138,7 +173,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 1
             pub mod EventProfileStorageAvailable_t {
-                pub const m_nSplitScreenSlot: usize = 0x0; // 
+                pub const m_nSplitScreenSlot: usize = 0x0; // CSplitScreenSlot
             }
             // Parent: None
             // Field count: 1
@@ -185,7 +220,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 6
             pub mod EventClientPreOutput_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRenderTime: usize = 0x28; // float64
                 pub const m_flRenderFrameTime: usize = 0x30; // float64
                 pub const m_flRenderFrameTimeUnbounded: usize = 0x38; // float64
@@ -195,7 +230,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 4
             pub mod EventClientFrameSimulate_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRealTime: usize = 0x28; // float32
                 pub const m_flFrameTime: usize = 0x2C; // float32
                 pub const m_bScheduleSendTickPacket: usize = 0x30; // bool
@@ -207,7 +242,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 8
             pub mod EventSetTime_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_nClientOutputFrames: usize = 0x28; // int32
                 pub const m_flRealTime: usize = 0x30; // float64
                 pub const m_flRenderTime: usize = 0x38; // float64
@@ -223,7 +258,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 3
             pub mod EventSimulate_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_bFirstTick: usize = 0x28; // bool
                 pub const m_bLastTick: usize = 0x29; // bool
             }
@@ -248,7 +283,15 @@ pub mod cs2_dumper {
                 pub const m_pNetworkDataReferencedPtrPropDescription: usize = 0x18; // char*
                 pub const m_nRuntimeIndex: usize = 0x20; // int32
                 pub const m_nFlags: usize = 0x24; // uint32
-                pub const m_pBaseClassComponentHelper: usize = 0x60; // 
+                pub const m_pBaseClassComponentHelper: usize = 0x60; // CEntityComponentHelper*
+            }
+            // Parent: None
+            // Field count: 4
+            pub mod EngineLoopState_t {
+                pub const m_nPlatWindowWidth: usize = 0x18; // int32
+                pub const m_nPlatWindowHeight: usize = 0x1C; // int32
+                pub const m_nRenderWidth: usize = 0x20; // int32
+                pub const m_nRenderHeight: usize = 0x24; // int32
             }
             // Parent: None
             // Field count: 1
@@ -262,7 +305,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 4
             pub mod EventClientProcessInput_t {
-                pub const m_LoopState: usize = 0x0; // 
+                pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_flRealTime: usize = 0x28; // float32
                 pub const m_flTickInterval: usize = 0x2C; // float32
                 pub const m_flTickStartTime: usize = 0x30; // float64
