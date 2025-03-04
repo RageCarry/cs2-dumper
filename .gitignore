@@ -3,3 +3,7 @@
 /.vs
 /target
 Cargo.lock
+/.navmesh-parser
+/navmesh-parser
+./navmesh-parser
+navmesh-parser
