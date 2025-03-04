@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-03 10:21:29.948917911 UTC
+// 2025-03-04 15:03:18.228370980 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -195,7 +195,7 @@ pub mod cs2_dumper {
             // Parent: C_EconEntity
             // Field count: 1
             pub mod C_Item {
-                pub const m_pReticleHintTextName: usize = 0x1668; // char[256]
+                pub const m_pReticleHintTextName: usize = 0x1668; // 
             }
             // Parent: C_SoundEventEntity
             // Field count: 1
@@ -2586,7 +2586,7 @@ pub mod cs2_dumper {
                 pub const m_bBuiltRightHanded: usize = 0x1E8; // bool
                 pub const m_bAllowFlipping: usize = 0x1E9; // bool
                 pub const m_sMuzzleAttachment: usize = 0x1F0; // CAttachmentNameSymbolWithStorage
-                pub const m_szMuzzleFlashParticle: usize = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                pub const m_szMuzzleFlashParticle: usize = 0x210; // 
                 pub const m_bLinkedCooldowns: usize = 0x2F0; // bool
                 pub const m_iFlags: usize = 0x2F1; // ItemFlagTypes_t
                 pub const m_nPrimaryAmmoType: usize = 0x2F2; // AmmoIndex_t
@@ -4649,9 +4649,9 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPrecipitationVData {
-                pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                pub const m_szParticlePrecipitationEffect: usize = 0x28; // 
                 pub const m_flInnerDistance: usize = 0x108; // float32
-                pub const m_nAttachType: usize = 0x10C; // ParticleAttachment_t
+                pub const m_nAttachType: usize = 0x10C; // 
                 pub const m_bBatchSameVolumeType: usize = 0x110; // bool
                 pub const m_nRTEnvCP: usize = 0x114; // int32
                 pub const m_nRTEnvCPComponent: usize = 0x118; // int32
@@ -5880,7 +5880,7 @@ pub mod cs2_dumper {
                 pub const m_nFirstPredictableCommand: usize = 0x488; // int32
                 pub const m_nLastPredictableCommand: usize = 0x48C; // int32
                 pub const m_hOldMoveParent: usize = 0x490; // CHandle<C_BaseEntity>
-                pub const m_Particles: usize = 0x498; // CParticleProperty
+                pub const m_Particles: usize = 0x498; // 
                 pub const m_vecPredictedScriptFloats: usize = 0x4C0; // CUtlVector<float32>
                 pub const m_vecPredictedScriptFloatIDs: usize = 0x4D8; // CUtlVector<int32>
                 pub const m_nNextScriptVarRecordID: usize = 0x508; // int32
@@ -6095,12 +6095,12 @@ pub mod cs2_dumper {
                 pub const m_szWorldDroppedModel: usize = 0x510; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_szAimsightLensMaskModel: usize = 0x5F0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_szMagazineModel: usize = 0x6D0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                pub const m_szHeatEffect: usize = 0x7B0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szEjectBrassEffect: usize = 0x890; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashParticleAlt: usize = 0x970; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashThirdPersonParticle: usize = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashThirdPersonParticleAlt: usize = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szTracerParticle: usize = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                pub const m_szHeatEffect: usize = 0x7B0; // 
+                pub const m_szEjectBrassEffect: usize = 0x890; // 
+                pub const m_szMuzzleFlashParticleAlt: usize = 0x970; // 
+                pub const m_szMuzzleFlashThirdPersonParticle: usize = 0xA50; // 
+                pub const m_szMuzzleFlashThirdPersonParticleAlt: usize = 0xB30; // 
+                pub const m_szTracerParticle: usize = 0xC10; // 
                 pub const m_GearSlot: usize = 0xCF0; // gear_slot_t
                 pub const m_GearSlotPosition: usize = 0xCF4; // int32
                 pub const m_DefaultLoadoutSlot: usize = 0xCF8; // loadout_slot_t

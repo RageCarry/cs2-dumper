@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-03 10:21:29.948917911 UTC
+// 2025-03-04 15:03:18.228370980 UTC
 
 #pragma once
 
@@ -3631,7 +3631,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_SoundLevel = 0x520; // CEntityOutputTemplate<float32>
                 constexpr std::ptrdiff_t m_OnRoutedSound = 0x548; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnHeardSound = 0x570; // CEntityIOOutput
-                constexpr std::ptrdiff_t m_szLastSound = 0x598; // char[256]
+                constexpr std::ptrdiff_t m_szLastSound = 0x598; // 
                 constexpr std::ptrdiff_t m_iLastRoutedFrame = 0x698; // int32
             }
             // Parent: CLogicalEntity
@@ -3828,9 +3828,9 @@ namespace cs2_dumper {
             // Parent: CPhysConstraint
             // Field count: 48
             namespace CGenericConstraint {
-                constexpr std::ptrdiff_t m_nLinearMotionX = 0x560; // JointMotion_t
-                constexpr std::ptrdiff_t m_nLinearMotionY = 0x564; // JointMotion_t
-                constexpr std::ptrdiff_t m_nLinearMotionZ = 0x568; // JointMotion_t
+                constexpr std::ptrdiff_t m_nLinearMotionX = 0x560; // 
+                constexpr std::ptrdiff_t m_nLinearMotionY = 0x564; // 
+                constexpr std::ptrdiff_t m_nLinearMotionZ = 0x568; // 
                 constexpr std::ptrdiff_t m_flLinearFrequencyX = 0x56C; // float32
                 constexpr std::ptrdiff_t m_flLinearFrequencyY = 0x570; // float32
                 constexpr std::ptrdiff_t m_flLinearFrequencyZ = 0x574; // float32
@@ -3861,9 +3861,9 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bAxisNotifiedX = 0x5D8; // bool
                 constexpr std::ptrdiff_t m_bAxisNotifiedY = 0x5D9; // bool
                 constexpr std::ptrdiff_t m_bAxisNotifiedZ = 0x5DA; // bool
-                constexpr std::ptrdiff_t m_nAngularMotionX = 0x5DC; // JointMotion_t
-                constexpr std::ptrdiff_t m_nAngularMotionY = 0x5E0; // JointMotion_t
-                constexpr std::ptrdiff_t m_nAngularMotionZ = 0x5E4; // JointMotion_t
+                constexpr std::ptrdiff_t m_nAngularMotionX = 0x5DC; // 
+                constexpr std::ptrdiff_t m_nAngularMotionY = 0x5E0; // 
+                constexpr std::ptrdiff_t m_nAngularMotionZ = 0x5E4; // 
                 constexpr std::ptrdiff_t m_flAngularFrequencyX = 0x5E8; // float32
                 constexpr std::ptrdiff_t m_flAngularFrequencyY = 0x5EC; // float32
                 constexpr std::ptrdiff_t m_flAngularFrequencyZ = 0x5F0; // float32
@@ -4202,7 +4202,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bBuiltRightHanded = 0x1E8; // bool
                 constexpr std::ptrdiff_t m_bAllowFlipping = 0x1E9; // bool
                 constexpr std::ptrdiff_t m_sMuzzleAttachment = 0x1F0; // CAttachmentNameSymbolWithStorage
-                constexpr std::ptrdiff_t m_szMuzzleFlashParticle = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szMuzzleFlashParticle = 0x210; // 
                 constexpr std::ptrdiff_t m_bLinkedCooldowns = 0x2F0; // bool
                 constexpr std::ptrdiff_t m_iFlags = 0x2F1; // ItemFlagTypes_t
                 constexpr std::ptrdiff_t m_nPrimaryAmmoType = 0x2F2; // AmmoIndex_t
@@ -4270,7 +4270,7 @@ namespace cs2_dumper {
             namespace CAmbientGeneric {
                 constexpr std::ptrdiff_t m_radius = 0x4E0; // float32
                 constexpr std::ptrdiff_t m_flMaxRadius = 0x4E4; // float32
-                constexpr std::ptrdiff_t m_iSoundLevel = 0x4E8; // soundlevel_t
+                constexpr std::ptrdiff_t m_iSoundLevel = 0x4E8; // 
                 constexpr std::ptrdiff_t m_dpv = 0x4EC; // dynpitchvol_t
                 constexpr std::ptrdiff_t m_fActive = 0x550; // bool
                 constexpr std::ptrdiff_t m_fLooping = 0x551; // bool
@@ -4518,9 +4518,9 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_stackName = 0x998; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_operatorName = 0x9A0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_bVolIs2D = 0x9A8; // bool
-                constexpr std::ptrdiff_t m_opvarNameChar = 0x9A9; // char[256]
-                constexpr std::ptrdiff_t m_stackNameChar = 0xAA9; // char[256]
-                constexpr std::ptrdiff_t m_operatorNameChar = 0xBA9; // char[256]
+                constexpr std::ptrdiff_t m_opvarNameChar = 0x9A9; // 
+                constexpr std::ptrdiff_t m_stackNameChar = 0xAA9; // 
+                constexpr std::ptrdiff_t m_operatorNameChar = 0xBA9; // 
                 constexpr std::ptrdiff_t m_VecNormPos = 0xCAC; // Vector
                 constexpr std::ptrdiff_t m_flNormCenterSize = 0xCB8; // float32
             }
@@ -7802,9 +7802,9 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPrecipitationVData {
-                constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // 
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
-                constexpr std::ptrdiff_t m_nAttachType = 0x10C; // ParticleAttachment_t
+                constexpr std::ptrdiff_t m_nAttachType = 0x10C; // 
                 constexpr std::ptrdiff_t m_bBatchSameVolumeType = 0x110; // bool
                 constexpr std::ptrdiff_t m_nRTEnvCP = 0x114; // int32
                 constexpr std::ptrdiff_t m_nRTEnvCPComponent = 0x118; // int32
@@ -9727,12 +9727,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_szWorldDroppedModel = 0x510; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_szAimsightLensMaskModel = 0x5F0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_szMagazineModel = 0x6D0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                constexpr std::ptrdiff_t m_szHeatEffect = 0x7B0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szEjectBrassEffect = 0x890; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashParticleAlt = 0x970; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticle = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szTracerParticle = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szHeatEffect = 0x7B0; // 
+                constexpr std::ptrdiff_t m_szEjectBrassEffect = 0x890; // 
+                constexpr std::ptrdiff_t m_szMuzzleFlashParticleAlt = 0x970; // 
+                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticle = 0xA50; // 
+                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // 
+                constexpr std::ptrdiff_t m_szTracerParticle = 0xC10; // 
                 constexpr std::ptrdiff_t m_GearSlot = 0xCF0; // gear_slot_t
                 constexpr std::ptrdiff_t m_GearSlotPosition = 0xCF4; // int32
                 constexpr std::ptrdiff_t m_DefaultLoadoutSlot = 0xCF8; // loadout_slot_t
@@ -10398,7 +10398,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_NotifyMaxLimitReached = 0x610; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_bAtMinLimit = 0x638; // bool
                 constexpr std::ptrdiff_t m_bAtMaxLimit = 0x639; // bool
-                constexpr std::ptrdiff_t m_hinge = 0x63C; // constraint_hingeparams_t
+                constexpr std::ptrdiff_t m_hinge = 0x63C; // 
                 constexpr std::ptrdiff_t m_hingeFriction = 0x67C; // float32
                 constexpr std::ptrdiff_t m_systemLoadScale = 0x680; // float32
                 constexpr std::ptrdiff_t m_bIsAxisLocal = 0x684; // bool

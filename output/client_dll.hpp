@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-03 10:21:29.948917911 UTC
+// 2025-03-04 15:03:18.228370980 UTC
 
 #pragma once
 
@@ -190,7 +190,7 @@ namespace cs2_dumper {
             // Parent: C_EconEntity
             // Field count: 1
             namespace C_Item {
-                constexpr std::ptrdiff_t m_pReticleHintTextName = 0x1668; // char[256]
+                constexpr std::ptrdiff_t m_pReticleHintTextName = 0x1668; // 
             }
             // Parent: C_SoundEventEntity
             // Field count: 1
@@ -2581,7 +2581,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bBuiltRightHanded = 0x1E8; // bool
                 constexpr std::ptrdiff_t m_bAllowFlipping = 0x1E9; // bool
                 constexpr std::ptrdiff_t m_sMuzzleAttachment = 0x1F0; // CAttachmentNameSymbolWithStorage
-                constexpr std::ptrdiff_t m_szMuzzleFlashParticle = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szMuzzleFlashParticle = 0x210; // 
                 constexpr std::ptrdiff_t m_bLinkedCooldowns = 0x2F0; // bool
                 constexpr std::ptrdiff_t m_iFlags = 0x2F1; // ItemFlagTypes_t
                 constexpr std::ptrdiff_t m_nPrimaryAmmoType = 0x2F2; // AmmoIndex_t
@@ -4644,9 +4644,9 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPrecipitationVData {
-                constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // 
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
-                constexpr std::ptrdiff_t m_nAttachType = 0x10C; // ParticleAttachment_t
+                constexpr std::ptrdiff_t m_nAttachType = 0x10C; // 
                 constexpr std::ptrdiff_t m_bBatchSameVolumeType = 0x110; // bool
                 constexpr std::ptrdiff_t m_nRTEnvCP = 0x114; // int32
                 constexpr std::ptrdiff_t m_nRTEnvCPComponent = 0x118; // int32
@@ -5875,7 +5875,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nFirstPredictableCommand = 0x488; // int32
                 constexpr std::ptrdiff_t m_nLastPredictableCommand = 0x48C; // int32
                 constexpr std::ptrdiff_t m_hOldMoveParent = 0x490; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_Particles = 0x498; // CParticleProperty
+                constexpr std::ptrdiff_t m_Particles = 0x498; // 
                 constexpr std::ptrdiff_t m_vecPredictedScriptFloats = 0x4C0; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_vecPredictedScriptFloatIDs = 0x4D8; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_nNextScriptVarRecordID = 0x508; // int32
@@ -6090,12 +6090,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_szWorldDroppedModel = 0x510; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_szAimsightLensMaskModel = 0x5F0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_szMagazineModel = 0x6D0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                constexpr std::ptrdiff_t m_szHeatEffect = 0x7B0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szEjectBrassEffect = 0x890; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashParticleAlt = 0x970; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticle = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szTracerParticle = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szHeatEffect = 0x7B0; // 
+                constexpr std::ptrdiff_t m_szEjectBrassEffect = 0x890; // 
+                constexpr std::ptrdiff_t m_szMuzzleFlashParticleAlt = 0x970; // 
+                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticle = 0xA50; // 
+                constexpr std::ptrdiff_t m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // 
+                constexpr std::ptrdiff_t m_szTracerParticle = 0xC10; // 
                 constexpr std::ptrdiff_t m_GearSlot = 0xCF0; // gear_slot_t
                 constexpr std::ptrdiff_t m_GearSlotPosition = 0xCF4; // int32
                 constexpr std::ptrdiff_t m_DefaultLoadoutSlot = 0xCF8; // loadout_slot_t

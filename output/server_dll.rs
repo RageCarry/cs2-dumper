@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-03 10:21:29.948917911 UTC
+// 2025-03-04 15:03:18.228370980 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -3733,7 +3733,7 @@ pub mod cs2_dumper {
                 pub const m_SoundLevel: usize = 0x520; // CEntityOutputTemplate<float32>
                 pub const m_OnRoutedSound: usize = 0x548; // CEntityIOOutput
                 pub const m_OnHeardSound: usize = 0x570; // CEntityIOOutput
-                pub const m_szLastSound: usize = 0x598; // char[256]
+                pub const m_szLastSound: usize = 0x598; // 
                 pub const m_iLastRoutedFrame: usize = 0x698; // int32
             }
             // Parent: CLogicalEntity
@@ -3930,9 +3930,9 @@ pub mod cs2_dumper {
             // Parent: CPhysConstraint
             // Field count: 48
             pub mod CGenericConstraint {
-                pub const m_nLinearMotionX: usize = 0x560; // JointMotion_t
-                pub const m_nLinearMotionY: usize = 0x564; // JointMotion_t
-                pub const m_nLinearMotionZ: usize = 0x568; // JointMotion_t
+                pub const m_nLinearMotionX: usize = 0x560; // 
+                pub const m_nLinearMotionY: usize = 0x564; // 
+                pub const m_nLinearMotionZ: usize = 0x568; // 
                 pub const m_flLinearFrequencyX: usize = 0x56C; // float32
                 pub const m_flLinearFrequencyY: usize = 0x570; // float32
                 pub const m_flLinearFrequencyZ: usize = 0x574; // float32
@@ -3963,9 +3963,9 @@ pub mod cs2_dumper {
                 pub const m_bAxisNotifiedX: usize = 0x5D8; // bool
                 pub const m_bAxisNotifiedY: usize = 0x5D9; // bool
                 pub const m_bAxisNotifiedZ: usize = 0x5DA; // bool
-                pub const m_nAngularMotionX: usize = 0x5DC; // JointMotion_t
-                pub const m_nAngularMotionY: usize = 0x5E0; // JointMotion_t
-                pub const m_nAngularMotionZ: usize = 0x5E4; // JointMotion_t
+                pub const m_nAngularMotionX: usize = 0x5DC; // 
+                pub const m_nAngularMotionY: usize = 0x5E0; // 
+                pub const m_nAngularMotionZ: usize = 0x5E4; // 
                 pub const m_flAngularFrequencyX: usize = 0x5E8; // float32
                 pub const m_flAngularFrequencyY: usize = 0x5EC; // float32
                 pub const m_flAngularFrequencyZ: usize = 0x5F0; // float32
@@ -4304,7 +4304,7 @@ pub mod cs2_dumper {
                 pub const m_bBuiltRightHanded: usize = 0x1E8; // bool
                 pub const m_bAllowFlipping: usize = 0x1E9; // bool
                 pub const m_sMuzzleAttachment: usize = 0x1F0; // CAttachmentNameSymbolWithStorage
-                pub const m_szMuzzleFlashParticle: usize = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                pub const m_szMuzzleFlashParticle: usize = 0x210; // 
                 pub const m_bLinkedCooldowns: usize = 0x2F0; // bool
                 pub const m_iFlags: usize = 0x2F1; // ItemFlagTypes_t
                 pub const m_nPrimaryAmmoType: usize = 0x2F2; // AmmoIndex_t
@@ -4372,7 +4372,7 @@ pub mod cs2_dumper {
             pub mod CAmbientGeneric {
                 pub const m_radius: usize = 0x4E0; // float32
                 pub const m_flMaxRadius: usize = 0x4E4; // float32
-                pub const m_iSoundLevel: usize = 0x4E8; // soundlevel_t
+                pub const m_iSoundLevel: usize = 0x4E8; // 
                 pub const m_dpv: usize = 0x4EC; // dynpitchvol_t
                 pub const m_fActive: usize = 0x550; // bool
                 pub const m_fLooping: usize = 0x551; // bool
@@ -4620,9 +4620,9 @@ pub mod cs2_dumper {
                 pub const m_stackName: usize = 0x998; // CUtlSymbolLarge
                 pub const m_operatorName: usize = 0x9A0; // CUtlSymbolLarge
                 pub const m_bVolIs2D: usize = 0x9A8; // bool
-                pub const m_opvarNameChar: usize = 0x9A9; // char[256]
-                pub const m_stackNameChar: usize = 0xAA9; // char[256]
-                pub const m_operatorNameChar: usize = 0xBA9; // char[256]
+                pub const m_opvarNameChar: usize = 0x9A9; // 
+                pub const m_stackNameChar: usize = 0xAA9; // 
+                pub const m_operatorNameChar: usize = 0xBA9; // 
                 pub const m_VecNormPos: usize = 0xCAC; // Vector
                 pub const m_flNormCenterSize: usize = 0xCB8; // float32
             }
@@ -7904,9 +7904,9 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPrecipitationVData {
-                pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                pub const m_szParticlePrecipitationEffect: usize = 0x28; // 
                 pub const m_flInnerDistance: usize = 0x108; // float32
-                pub const m_nAttachType: usize = 0x10C; // ParticleAttachment_t
+                pub const m_nAttachType: usize = 0x10C; // 
                 pub const m_bBatchSameVolumeType: usize = 0x110; // bool
                 pub const m_nRTEnvCP: usize = 0x114; // int32
                 pub const m_nRTEnvCPComponent: usize = 0x118; // int32
@@ -9829,12 +9829,12 @@ pub mod cs2_dumper {
                 pub const m_szWorldDroppedModel: usize = 0x510; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_szAimsightLensMaskModel: usize = 0x5F0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
                 pub const m_szMagazineModel: usize = 0x6D0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                pub const m_szHeatEffect: usize = 0x7B0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szEjectBrassEffect: usize = 0x890; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashParticleAlt: usize = 0x970; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashThirdPersonParticle: usize = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashThirdPersonParticleAlt: usize = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szTracerParticle: usize = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                pub const m_szHeatEffect: usize = 0x7B0; // 
+                pub const m_szEjectBrassEffect: usize = 0x890; // 
+                pub const m_szMuzzleFlashParticleAlt: usize = 0x970; // 
+                pub const m_szMuzzleFlashThirdPersonParticle: usize = 0xA50; // 
+                pub const m_szMuzzleFlashThirdPersonParticleAlt: usize = 0xB30; // 
+                pub const m_szTracerParticle: usize = 0xC10; // 
                 pub const m_GearSlot: usize = 0xCF0; // gear_slot_t
                 pub const m_GearSlotPosition: usize = 0xCF4; // int32
                 pub const m_DefaultLoadoutSlot: usize = 0xCF8; // loadout_slot_t
@@ -10500,7 +10500,7 @@ pub mod cs2_dumper {
                 pub const m_NotifyMaxLimitReached: usize = 0x610; // CEntityIOOutput
                 pub const m_bAtMinLimit: usize = 0x638; // bool
                 pub const m_bAtMaxLimit: usize = 0x639; // bool
-                pub const m_hinge: usize = 0x63C; // constraint_hingeparams_t
+                pub const m_hinge: usize = 0x63C; // 
                 pub const m_hingeFriction: usize = 0x67C; // float32
                 pub const m_systemLoadScale: usize = 0x680; // float32
                 pub const m_bIsAxisLocal: usize = 0x684; // bool

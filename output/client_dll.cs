@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-03 10:21:29.948917911 UTC
+// 2025-03-04 15:03:18.228370980 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -185,7 +185,7 @@ namespace CS2Dumper.Schemas {
         // Parent: C_EconEntity
         // Field count: 1
         public static class C_Item {
-            public const nint m_pReticleHintTextName = 0x1668; // char[256]
+            public const nint m_pReticleHintTextName = 0x1668; // 
         }
         // Parent: C_SoundEventEntity
         // Field count: 1
@@ -2576,7 +2576,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bBuiltRightHanded = 0x1E8; // bool
             public const nint m_bAllowFlipping = 0x1E9; // bool
             public const nint m_sMuzzleAttachment = 0x1F0; // CAttachmentNameSymbolWithStorage
-            public const nint m_szMuzzleFlashParticle = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szMuzzleFlashParticle = 0x210; // 
             public const nint m_bLinkedCooldowns = 0x2F0; // bool
             public const nint m_iFlags = 0x2F1; // ItemFlagTypes_t
             public const nint m_nPrimaryAmmoType = 0x2F2; // AmmoIndex_t
@@ -4639,9 +4639,9 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
-            public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szParticlePrecipitationEffect = 0x28; // 
             public const nint m_flInnerDistance = 0x108; // float32
-            public const nint m_nAttachType = 0x10C; // ParticleAttachment_t
+            public const nint m_nAttachType = 0x10C; // 
             public const nint m_bBatchSameVolumeType = 0x110; // bool
             public const nint m_nRTEnvCP = 0x114; // int32
             public const nint m_nRTEnvCPComponent = 0x118; // int32
@@ -5870,7 +5870,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nFirstPredictableCommand = 0x488; // int32
             public const nint m_nLastPredictableCommand = 0x48C; // int32
             public const nint m_hOldMoveParent = 0x490; // CHandle<C_BaseEntity>
-            public const nint m_Particles = 0x498; // CParticleProperty
+            public const nint m_Particles = 0x498; // 
             public const nint m_vecPredictedScriptFloats = 0x4C0; // CUtlVector<float32>
             public const nint m_vecPredictedScriptFloatIDs = 0x4D8; // CUtlVector<int32>
             public const nint m_nNextScriptVarRecordID = 0x508; // int32
@@ -6085,12 +6085,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_szWorldDroppedModel = 0x510; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_szAimsightLensMaskModel = 0x5F0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_szMagazineModel = 0x6D0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_szHeatEffect = 0x7B0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szEjectBrassEffect = 0x890; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szMuzzleFlashParticleAlt = 0x970; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szMuzzleFlashThirdPersonParticle = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szTracerParticle = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szHeatEffect = 0x7B0; // 
+            public const nint m_szEjectBrassEffect = 0x890; // 
+            public const nint m_szMuzzleFlashParticleAlt = 0x970; // 
+            public const nint m_szMuzzleFlashThirdPersonParticle = 0xA50; // 
+            public const nint m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // 
+            public const nint m_szTracerParticle = 0xC10; // 
             public const nint m_GearSlot = 0xCF0; // gear_slot_t
             public const nint m_GearSlotPosition = 0xCF4; // int32
             public const nint m_DefaultLoadoutSlot = 0xCF8; // loadout_slot_t

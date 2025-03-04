@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-03 10:21:29.948917911 UTC
+// 2025-03-04 15:03:18.228370980 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -3626,7 +3626,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_SoundLevel = 0x520; // CEntityOutputTemplate<float32>
             public const nint m_OnRoutedSound = 0x548; // CEntityIOOutput
             public const nint m_OnHeardSound = 0x570; // CEntityIOOutput
-            public const nint m_szLastSound = 0x598; // char[256]
+            public const nint m_szLastSound = 0x598; // 
             public const nint m_iLastRoutedFrame = 0x698; // int32
         }
         // Parent: CLogicalEntity
@@ -3823,9 +3823,9 @@ namespace CS2Dumper.Schemas {
         // Parent: CPhysConstraint
         // Field count: 48
         public static class CGenericConstraint {
-            public const nint m_nLinearMotionX = 0x560; // JointMotion_t
-            public const nint m_nLinearMotionY = 0x564; // JointMotion_t
-            public const nint m_nLinearMotionZ = 0x568; // JointMotion_t
+            public const nint m_nLinearMotionX = 0x560; // 
+            public const nint m_nLinearMotionY = 0x564; // 
+            public const nint m_nLinearMotionZ = 0x568; // 
             public const nint m_flLinearFrequencyX = 0x56C; // float32
             public const nint m_flLinearFrequencyY = 0x570; // float32
             public const nint m_flLinearFrequencyZ = 0x574; // float32
@@ -3856,9 +3856,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_bAxisNotifiedX = 0x5D8; // bool
             public const nint m_bAxisNotifiedY = 0x5D9; // bool
             public const nint m_bAxisNotifiedZ = 0x5DA; // bool
-            public const nint m_nAngularMotionX = 0x5DC; // JointMotion_t
-            public const nint m_nAngularMotionY = 0x5E0; // JointMotion_t
-            public const nint m_nAngularMotionZ = 0x5E4; // JointMotion_t
+            public const nint m_nAngularMotionX = 0x5DC; // 
+            public const nint m_nAngularMotionY = 0x5E0; // 
+            public const nint m_nAngularMotionZ = 0x5E4; // 
             public const nint m_flAngularFrequencyX = 0x5E8; // float32
             public const nint m_flAngularFrequencyY = 0x5EC; // float32
             public const nint m_flAngularFrequencyZ = 0x5F0; // float32
@@ -4197,7 +4197,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bBuiltRightHanded = 0x1E8; // bool
             public const nint m_bAllowFlipping = 0x1E9; // bool
             public const nint m_sMuzzleAttachment = 0x1F0; // CAttachmentNameSymbolWithStorage
-            public const nint m_szMuzzleFlashParticle = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szMuzzleFlashParticle = 0x210; // 
             public const nint m_bLinkedCooldowns = 0x2F0; // bool
             public const nint m_iFlags = 0x2F1; // ItemFlagTypes_t
             public const nint m_nPrimaryAmmoType = 0x2F2; // AmmoIndex_t
@@ -4265,7 +4265,7 @@ namespace CS2Dumper.Schemas {
         public static class CAmbientGeneric {
             public const nint m_radius = 0x4E0; // float32
             public const nint m_flMaxRadius = 0x4E4; // float32
-            public const nint m_iSoundLevel = 0x4E8; // soundlevel_t
+            public const nint m_iSoundLevel = 0x4E8; // 
             public const nint m_dpv = 0x4EC; // dynpitchvol_t
             public const nint m_fActive = 0x550; // bool
             public const nint m_fLooping = 0x551; // bool
@@ -4513,9 +4513,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_stackName = 0x998; // CUtlSymbolLarge
             public const nint m_operatorName = 0x9A0; // CUtlSymbolLarge
             public const nint m_bVolIs2D = 0x9A8; // bool
-            public const nint m_opvarNameChar = 0x9A9; // char[256]
-            public const nint m_stackNameChar = 0xAA9; // char[256]
-            public const nint m_operatorNameChar = 0xBA9; // char[256]
+            public const nint m_opvarNameChar = 0x9A9; // 
+            public const nint m_stackNameChar = 0xAA9; // 
+            public const nint m_operatorNameChar = 0xBA9; // 
             public const nint m_VecNormPos = 0xCAC; // Vector
             public const nint m_flNormCenterSize = 0xCB8; // float32
         }
@@ -7797,9 +7797,9 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
-            public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szParticlePrecipitationEffect = 0x28; // 
             public const nint m_flInnerDistance = 0x108; // float32
-            public const nint m_nAttachType = 0x10C; // ParticleAttachment_t
+            public const nint m_nAttachType = 0x10C; // 
             public const nint m_bBatchSameVolumeType = 0x110; // bool
             public const nint m_nRTEnvCP = 0x114; // int32
             public const nint m_nRTEnvCPComponent = 0x118; // int32
@@ -9722,12 +9722,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_szWorldDroppedModel = 0x510; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_szAimsightLensMaskModel = 0x5F0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_szMagazineModel = 0x6D0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_szHeatEffect = 0x7B0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szEjectBrassEffect = 0x890; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szMuzzleFlashParticleAlt = 0x970; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szMuzzleFlashThirdPersonParticle = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szTracerParticle = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szHeatEffect = 0x7B0; // 
+            public const nint m_szEjectBrassEffect = 0x890; // 
+            public const nint m_szMuzzleFlashParticleAlt = 0x970; // 
+            public const nint m_szMuzzleFlashThirdPersonParticle = 0xA50; // 
+            public const nint m_szMuzzleFlashThirdPersonParticleAlt = 0xB30; // 
+            public const nint m_szTracerParticle = 0xC10; // 
             public const nint m_GearSlot = 0xCF0; // gear_slot_t
             public const nint m_GearSlotPosition = 0xCF4; // int32
             public const nint m_DefaultLoadoutSlot = 0xCF8; // loadout_slot_t
@@ -10393,7 +10393,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_NotifyMaxLimitReached = 0x610; // CEntityIOOutput
             public const nint m_bAtMinLimit = 0x638; // bool
             public const nint m_bAtMaxLimit = 0x639; // bool
-            public const nint m_hinge = 0x63C; // constraint_hingeparams_t
+            public const nint m_hinge = 0x63C; // 
             public const nint m_hingeFriction = 0x67C; // float32
             public const nint m_systemLoadScale = 0x680; // float32
             public const nint m_bIsAxisLocal = 0x684; // bool

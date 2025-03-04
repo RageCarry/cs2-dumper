@@ -1,39 +1,39 @@
-15:00:03 [INFO] scanning "/usr/local/lib/memflow" for libraries
-15:00:03 [INFO] adding plugin 'Connector/pcileech': "/usr/local/lib/memflow/libmemflow_pcileech.dev.so"
-15:00:03 [INFO] adding plugin 'Connector/kvm': "/usr/local/lib/memflow/libmemflow_kvm.dev.so"
-15:00:03 [INFO] adding plugin 'Connector/coredump': "/usr/local/lib/memflow/libmemflow_coredump.dev.so"
-15:00:03 [INFO] adding plugin 'OS/native': "/usr/local/lib/memflow/libmemflow_native.dev.so"
-15:00:03 [INFO] adding plugin 'Connector/kcore': "/usr/local/lib/memflow/libmemflow_kcore.dev.so"
-15:00:03 [INFO] adding plugin 'OS/win32': "/usr/local/lib/memflow/libmemflow_win32.dev.so"
-15:00:03 [INFO] adding plugin 'Connector/qemu': "/usr/local/lib/memflow/libmemflow_qemu.dev.so"
-15:00:03 [INFO] scanning "/root/.local/lib/memflow" for libraries
-15:00:03 [INFO] scanning "/home/test/cs2/cs2-dumper" for libraries
-15:00:03 [INFO] attempting to load `Connector` type plugin `qemu` from `/usr/local/lib/memflow/libmemflow_qemu.dev.so`
-15:00:03 [INFO] qemu process with name qemu-system-x86_64 found with pid 3166785
-15:00:03 [INFO] qemu memory map found CTup2(7f4e77e00000, 8589934592)
-15:00:03 [INFO] qemu process started with machine: pc-q35-9.1
-15:00:03 [INFO] qemu memory map size: 200000000
-15:00:03 [INFO] using fallback memory mappings for q35 with more than 2816mb of ram
-15:00:03 [INFO] qemu machine mem_map: MemoryMapping: base=0 size=80000000 real_base=7f4e77e00000
+15:03:17 [INFO] scanning "/usr/local/lib/memflow" for libraries
+15:03:17 [INFO] adding plugin 'Connector/pcileech': "/usr/local/lib/memflow/libmemflow_pcileech.dev.so"
+15:03:17 [INFO] adding plugin 'Connector/kvm': "/usr/local/lib/memflow/libmemflow_kvm.dev.so"
+15:03:17 [INFO] adding plugin 'Connector/coredump': "/usr/local/lib/memflow/libmemflow_coredump.dev.so"
+15:03:17 [INFO] adding plugin 'OS/native': "/usr/local/lib/memflow/libmemflow_native.dev.so"
+15:03:17 [INFO] adding plugin 'Connector/kcore': "/usr/local/lib/memflow/libmemflow_kcore.dev.so"
+15:03:17 [INFO] adding plugin 'OS/win32': "/usr/local/lib/memflow/libmemflow_win32.dev.so"
+15:03:17 [INFO] adding plugin 'Connector/qemu': "/usr/local/lib/memflow/libmemflow_qemu.dev.so"
+15:03:17 [INFO] scanning "/root/.local/lib/memflow" for libraries
+15:03:17 [INFO] scanning "/home/test/cs2/cs2-dumper" for libraries
+15:03:17 [INFO] attempting to load `Connector` type plugin `qemu` from `/usr/local/lib/memflow/libmemflow_qemu.dev.so`
+15:03:17 [INFO] qemu process with name qemu-system-x86_64 found with pid 3166785
+15:03:17 [INFO] qemu memory map found CTup2(7f4e77e00000, 8589934592)
+15:03:17 [INFO] qemu process started with machine: pc-q35-9.1
+15:03:17 [INFO] qemu memory map size: 200000000
+15:03:17 [INFO] using fallback memory mappings for q35 with more than 2816mb of ram
+15:03:17 [INFO] qemu machine mem_map: MemoryMapping: base=0 size=80000000 real_base=7f4e77e00000
 MemoryMapping: base=100000000 size=180000000 real_base=7f4ef7e00000
-15:00:03 [INFO] Inserting `CachedPhysicalMemory` middleware with size=0, validity_time=0, page_size=4096
-15:00:03 [INFO] attempting to load `OS` type plugin `win32` from `/usr/local/lib/memflow/libmemflow_win32.dev.so`
-15:00:03 [INFO] Building kernel of type memflow_win32::win32::kernel_builder::Win32KernelBuilder<memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::mem::virt_translate::cache::CachedVirtualTranslate<memflow::mem::virt_translate::direct_translate::DirectTranslate, memflow::types::cache::timed_validator::TimedCacheValidator>>
-15:00:03 [INFO] arch=X86(64, false) kernel_hint=fffff804a8e73db0 dtb=1be000
-15:00:03 [INFO] base=fffff804a8800000 size=21295104
-15:00:03 [INFO] kernel_guid=Some(Win32Guid { file_name: "ntkrnlmp.pdb", guid: "EE7F3589470BE2A44AE38D55F7ABC10E1" })
-15:00:03 [INFO] trying to find NtBuildNumber export
-15:00:03 [INFO] NtBuildNumber found at 0xe0a4ac
-15:00:03 [INFO] trying to find RtlGetVersion export
-15:00:03 [INFO] RtlGetVersion found at 0x9e9060
-15:00:03 [INFO] nt_build_number: 4026557940
-15:00:03 [INFO] kernel version: 10.0.26100
-15:00:03 [INFO] kernel_winver=Win32Version { nt_major_version: 10, nt_minor_version: 0, nt_build_number: 4026557940 }
-15:00:03 [INFO] PsInitialSystemProcess found at 0xfffff804a97c4aa8
-15:00:03 [INFO] eprocess_base=ffffa68d38696040
-15:00:03 [INFO] start_block.dtb=1be000
-15:00:03 [INFO] reading pdb from local cache: /root/.cache/memflow/ntkrnlmp.pdb/EE7F3589470BE2A44AE38D55F7ABC10E1
-15:00:03 [INFO] updating connector mem_map=MemoryMapping: base=1000 size=2f000 real_base=1000
+15:03:17 [INFO] Inserting `CachedPhysicalMemory` middleware with size=0, validity_time=0, page_size=4096
+15:03:17 [INFO] attempting to load `OS` type plugin `win32` from `/usr/local/lib/memflow/libmemflow_win32.dev.so`
+15:03:17 [INFO] Building kernel of type memflow_win32::win32::kernel_builder::Win32KernelBuilder<memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::mem::virt_translate::cache::CachedVirtualTranslate<memflow::mem::virt_translate::direct_translate::DirectTranslate, memflow::types::cache::timed_validator::TimedCacheValidator>>
+15:03:17 [INFO] arch=X86(64, false) kernel_hint=fffff804a8e73db0 dtb=1be000
+15:03:17 [INFO] base=fffff804a8800000 size=21295104
+15:03:17 [INFO] kernel_guid=Some(Win32Guid { file_name: "ntkrnlmp.pdb", guid: "EE7F3589470BE2A44AE38D55F7ABC10E1" })
+15:03:17 [INFO] trying to find NtBuildNumber export
+15:03:17 [INFO] NtBuildNumber found at 0xe0a4ac
+15:03:17 [INFO] trying to find RtlGetVersion export
+15:03:17 [INFO] RtlGetVersion found at 0x9e9060
+15:03:17 [INFO] nt_build_number: 4026557940
+15:03:17 [INFO] kernel version: 10.0.26100
+15:03:17 [INFO] kernel_winver=Win32Version { nt_major_version: 10, nt_minor_version: 0, nt_build_number: 4026557940 }
+15:03:17 [INFO] PsInitialSystemProcess found at 0xfffff804a97c4aa8
+15:03:17 [INFO] eprocess_base=ffffa68d38696040
+15:03:17 [INFO] start_block.dtb=1be000
+15:03:17 [INFO] reading pdb from local cache: /root/.cache/memflow/ntkrnlmp.pdb/EE7F3589470BE2A44AE38D55F7ABC10E1
+15:03:17 [INFO] updating connector mem_map=MemoryMapping: base=1000 size=2f000 real_base=1000
 MemoryMapping: base=50000 size=4e000 real_base=50000
 MemoryMapping: base=100000 size=700000 real_base=100000
 MemoryMapping: base=806000 size=1000 real_base=806000
@@ -42,9 +42,9 @@ MemoryMapping: base=80c000 size=4000 real_base=80c000
 MemoryMapping: base=1a10000 size=7ce60000 real_base=1a10000
 MemoryMapping: base=7ebff000 size=301000 real_base=7ebff000
 MemoryMapping: base=100000000 size=180000000 real_base=100000000
-15:00:03 [INFO] updating sysproc_dtb=1be000
-15:00:03 [INFO] found 16 buttons
-15:00:03 [INFO] found 130 interfaces across 33 modules
-15:00:03 [INFO] found 33 offsets across 5 modules
-15:00:03 [INFO] found 1154 classes and 146 enums across 7 modules
-15:00:03 [INFO] analysis completed in 650.99ms
+15:03:17 [INFO] updating sysproc_dtb=1be000
+15:03:17 [INFO] found 16 buttons
+15:03:17 [INFO] found 130 interfaces across 33 modules
+15:03:18 [INFO] found 33 offsets across 5 modules
+15:03:18 [INFO] found 1154 classes and 146 enums across 7 modules
+15:03:18 [INFO] analysis completed in 651.63ms
